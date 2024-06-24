@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav {
+  display:flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  padding: 0px 0px;
+  align-items: center;
+  justify-content: space-between;
+  color: red;
+  background-color: black;
+  height: 80px;
+  z-index: 1000;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  color: blue;
+}
+nav ul li a{
+  text-decoration: none;
+  color:whitesmoke;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color: rgb(255, 194, 41);
+}
+h1 {
+  font-weight: bold;
+  color:whitesmoke;
+  font-size: 25px;
+  align-items: end;
+}
+image {
+  float: left; /* Align image to the left */
+  margin-right: 20px;
+
+}
+body {
+  background: black;
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+form {
+  display: inline-block;
+  align-items: center;
+  height: 140px;
+  width: 350px;
+  margin-bottom: 170px;
+}
+
+.text_area {
+  align-content: center;
+  border-color: red;
+  border-radius: 22px;
+  margin-bottom: 35px;
+  width: 100%;
+  height: 64px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text_input {
+  margin-top: 1.2rem;
+  font-family: "Greeza pro";
+  font-size: 20px;
+  border: none;
+  width: 80%;
+}
+
+.btn {
+  margin-top: 1px;
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  background: red;
+  border: none;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  box-shadow:black;
+  cursor: pointer;
+}
+
+.login {
+  display: inline-block;
+  border-color: red;
+  background: whitesmoke;
+  width: 434px;
+  height: 450px;
+  margin-top: 10%;
+  border-radius: 22px;
+  box-shadow: rebeccapurple;
+}
+
+.link {
+  margin-top: 0px;
+  color:blue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  display:inline-block;
+  
+}
